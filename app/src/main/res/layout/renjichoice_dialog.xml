@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:orientation="vertical"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center">
+
+
+    <!-- Line 1 -->
+
+    <TextView
+        android:text="选择你的对手"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:text="没人陪你玩只能欺负电脑吧,孤独的你像个沙口"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"></TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shaco"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/renjichoice_jiandan"
+            android:text="简单电脑"
+            android:textSize="25sp"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/de_button"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/renjichoice_kunnan"
+            android:text="普通电脑"
+            android:layout_margin="5dp"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:background="@drawable/de_button"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>
